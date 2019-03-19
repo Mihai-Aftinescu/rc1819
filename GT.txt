@@ -1,0 +1,10 @@
+Descargar directoio:
+git clone https://github.com/Mihai-Aftinescu/rc1819.git (url github)
+
+Subir directorio:
+git add .
+git config --global user.name "Mihai-Aftinescu"
+git commit -a -m " COMENTARIO"
+git push
+User: Mihai-Aftinescu
+Password: --
