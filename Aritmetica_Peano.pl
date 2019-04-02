@@ -103,6 +103,30 @@ peano(n(X)):- peano(X).
 
 
 
+% --------------- Pasamos a los decimales y eso ------------------------------------------------------
+
+
+
+
+% (Entera, Lista de números en Peano)
+% (n(n(n(0))),[n(n(0)), n(n(0)) ) = 3.2
+% Represanta un número real en aritmética de Peano siendo
+% Entera y Decimal dos números válidos en AP
+% (0,5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
