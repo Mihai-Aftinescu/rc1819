@@ -1,0 +1,13 @@
+% ARBOLES DE RECURSION
+
+% Binarios -> se crean usuando instrucción t(label,left son, right son)
+
+
+
+% GENERALES:
+% No esta limitado en numero de hijos y se puede representar de la siguiente manera:
+%		t(a, [(t[b,[]), t(c,[]), t(d,[]), t(e,[])])
+%		No exite el arbol nulo en arboles genericos
+%		t(Etiqueta,Lista_Arboles_Hijos)
+
+
