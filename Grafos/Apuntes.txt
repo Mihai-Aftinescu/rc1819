@@ -1,0 +1,27 @@
+
+%% Grafos
+% Representació de Grafos
+
+arista(a,b).
+arista(b,c).
+arista(a,c).
+
+
+% Lista de arista y lista de vértices
+
+g(ListaVertices, ListaAristas)
+
+g([a,b,c], [a(a,b),a(b,c),a(a,c)]).
+
+
+% Grafos dirigidos y no dirigidos
+
+% conectado(Grafo, Ini, Fin)
+
+% Grafo dirigido
+conectado(g(V,A), Ini, Fin) :- member(a(Ini,Fin), A).
+
+
+% Grafo no dirigido
+conectado(g(V,A), Ini, Fin) :- member(a(Ini,Fin), A).
+conectado(g(V,A), Ini, Fin) :- member(a(Fin,Ini), A).
